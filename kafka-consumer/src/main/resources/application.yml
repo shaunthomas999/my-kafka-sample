@@ -1,0 +1,13 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: kafka-consumer
+
+kafka:
+  bootstrapAddress: localhost:9092
+  topic:
+    name: greeting-topic
+  group:
+    id: greeting-group

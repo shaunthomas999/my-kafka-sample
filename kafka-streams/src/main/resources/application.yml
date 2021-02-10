@@ -1,0 +1,13 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: kafka-streams
+
+kafka:
+  bootstrapAddress: localhost:9092
+  stream:
+    applicationId: ${spring.application.name}
+  topic:
+    name: greeting-topic
