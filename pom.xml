@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.shaunthomas999.kafka</groupId>
-  <artifactId>kafka-workshop</artifactId>
+  <artifactId>my-kafka-sample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <modules>
@@ -15,7 +15,7 @@
   </modules>
   <packaging>pom</packaging>
 
-  <name>kafka-workshop</name>
+  <name>my-kafka-sample</name>
   <description>Kafka Workshop</description>
 
   <properties>
